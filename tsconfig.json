@@ -7,6 +7,9 @@
     "noUnusedLocals": true,
     "noUnusedParameters": false,
     "outDir": "./build",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
     "resolveJsonModule": true,
     "rootDir": "./",
     "skipLibCheck": true,
