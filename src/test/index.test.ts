@@ -1,7 +1,7 @@
 import { bootstrap } from "../index";
 
 describe("App", () => {
-  it("Boostrap project", () => {
+  it("Bootstrap project", () => {
     const consoleSpy = jest.spyOn(console, "log");
 
     bootstrap();
